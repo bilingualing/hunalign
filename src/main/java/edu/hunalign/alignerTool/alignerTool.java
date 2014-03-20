@@ -23,5 +23,6 @@ public class alignerTool
         }
 
         Arguments args;
+        return 0;
     }
 }

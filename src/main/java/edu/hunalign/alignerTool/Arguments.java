@@ -20,38 +20,38 @@ public class Arguments extends AnyData
     // the dString fields are all filled.
     Boolean read( int argc, char argv )
     {
-
+        return true;
     }
 
     // remains is filled with the arguments not starting with '-'.
     Boolean read( int argc, char argv, ArrayList<Character> remains )
     {
-
+        return true;
     }
 
     // const if fails, erases arg if succeeds.
     Boolean getNumericParam(String argName, Integer num)
     {
-
+        return true;
     }
 
     // sw is true if the switch is present. The function
     // returns false if the argument value is not empty.
     Boolean getSwitch(String name, Boolean mySwitch )
     {
-
+        return true;
     }
 
     Boolean getSwitchConst(String name, Boolean mySwitch )
     {
-
+        return true;
     }
 
     // Returns true if the switch is present. Throws an error message if
     // if the argument value is not empty.
     Boolean getSwitchCompact(String name )
     {
-
+        return true;
     }
 
     void checkEmptyArgs()
